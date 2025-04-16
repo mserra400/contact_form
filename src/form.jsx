@@ -15,14 +15,13 @@ export function SubscriberForm() {
             color="success"
             name="username"
           />
-          <Icon align="left" size="small">
+          <Icon align="left" size="meduim">
             <i className="fas fa-user" />
           </Icon>
-          <Icon align="right" size="small">
+          <Icon align="right" size="meduim">
             <i className="fas fa-check" />
           </Icon>
         </Form.Control>
-        <Form.Help color="success">This username is available</Form.Help>
       </Form.Field>
 
       <Form.Field>
@@ -32,10 +31,10 @@ export function SubscriberForm() {
             color="danger"
             name="email"
           />
-          <Icon align="left" size="small">
+          <Icon align="left" size="medium">
             <i className="fas fa-envelope" />
           </Icon>
-          <Icon align="right" size="small">
+          <Icon align="right" size="medium">
             <i className="fas fa-exclamation-triangle" />
           </Icon>
         </Form.Control>
